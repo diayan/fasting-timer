@@ -11,6 +11,8 @@
 		B24A46F0279B572700886449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24A46EF279B572700886449 /* ContentView.swift */; };
 		B24A46F2279B572800886449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24A46F1279B572800886449 /* Assets.xcassets */; };
 		B24A46F5279B572800886449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24A46F4279B572800886449 /* Preview Assets.xcassets */; };
+		B24A46FC279B5B2500886449 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24A46FB279B5B2500886449 /* ProgressRingView.swift */; };
+		B24A46FE279B7FB500886449 /* FastingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24A46FD279B7FB500886449 /* FastingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B24A46EF279B572700886449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B24A46F1279B572800886449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24A46F4279B572800886449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B24A46FB279B5B2500886449 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		B24A46FD279B7FB500886449 /* FastingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				B24A46ED279B572700886449 /* FastingTimerApp.swift */,
+				B24A46FB279B5B2500886449 /* ProgressRingView.swift */,
+				B24A46FD279B7FB500886449 /* FastingManager.swift */,
 				B24A46EF279B572700886449 /* ContentView.swift */,
 				B24A46F1279B572800886449 /* Assets.xcassets */,
 				B24A46F3279B572800886449 /* Preview Content */,
@@ -139,6 +145,8 @@
 			files = (
 				B24A46F0279B572700886449 /* ContentView.swift in Sources */,
 				B24A46EE279B572700886449 /* FastingTimerApp.swift in Sources */,
+				B24A46FE279B7FB500886449 /* FastingManager.swift in Sources */,
+				B24A46FC279B5B2500886449 /* ProgressRingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
