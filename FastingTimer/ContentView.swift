@@ -63,7 +63,7 @@ struct ContentView: View {
                         Text(fastingManager.fastingState == .notStarted ? "Start" : "Started")
                             .opacity(0.7)
                         
-                        Text(fastingManager.startTime, format: .dateTime.weekday().hour().minute().second())
+                        Text(fastingManager.startTime, format: .dateTime.weekday().hour().minute())
                             .fontWeight(.bold)
                     }
                     
@@ -73,7 +73,7 @@ struct ContentView: View {
                         Text(fastingManager.fastingState == .notStarted ? "End" : "Ends")
                             .opacity(0.7)
                         
-                        Text(fastingManager.endTime, format: .dateTime.weekday().hour().minute().second())
+                        Text(fastingManager.endTime, format: .dateTime.weekday().hour().minute())
                             .fontWeight(.bold)
                     }
                 }

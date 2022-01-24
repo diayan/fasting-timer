@@ -46,7 +46,7 @@ struct ProgressRingView: View {
                     }
                 }else {
                     VStack(spacing: 5) {
-                        Text("Elapsed time")
+                        Text("Elapsed time (\(fastingManager.progress.formatted(.percent))")
                             .opacity(0.7)
                         Text(fastingManager.startTime, style: .timer)
                             .font(.title)
@@ -56,7 +56,7 @@ struct ProgressRingView: View {
                     
                     VStack(spacing: 5) {
                         if !fastingManager.elapsed {
-                            Text("Remaining time")
+                            Text("Remaining time (\((1 - fastingManager.progress).formatted(.percent))")
                                 .opacity(0.7)
                         }else {
                             Text("Extra time")
